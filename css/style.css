@@ -78,7 +78,7 @@ textarea {
       margin-bottom: 8rem; } }
 
 .heading-sec__mb-med {
-  margin-bottom: 9rem; }
+  margin-bottom: 6rem; }
   @media only screen and (max-width: 56.25em) {
     .heading-sec__mb-med {
       margin-bottom: 8rem; } }
@@ -103,7 +103,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #006eff;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -155,12 +155,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #006eff;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #006eff;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #006eff;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -185,7 +185,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 110, 255, 0.8), rgba(0, 110, 255, 0.8)), url(../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -198,12 +198,11 @@ textarea {
   .home-hero__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
+    border-left: 4px solid #eee;
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
-        display: none; } }
+        top: 20%; } }
   .home-hero__mouse-scroll-cont {
     position: absolute;
     bottom: 3%;
@@ -213,12 +212,11 @@ textarea {
       .home-hero__mouse-scroll-cont {
         display: none; } }
   .home-hero__social {
-    width: 5rem; }
+    width: 7rem; }
   .home-hero__social-icon-link {
     width: 100%;
     display: block;
     padding: 1.2rem;
-    border-bottom: 2px solid #eee;
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
       background: rgba(255, 255, 255, 0.1); }
@@ -323,7 +321,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 110, 255, 0.8), rgba(0, 110, 255, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -404,7 +402,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 110, 255, 0.8), rgba(0, 110, 255, 0.8)), url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -496,6 +494,7 @@ textarea {
 .header {
   position: fixed;
   width: 100%;
+  height: 9%;
   z-index: 1000;
   background: #000;
   background: #fff;
@@ -515,14 +514,14 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: #006eff; }
   .header__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #0062b9; }
+    background: #d4e7ff; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -545,7 +544,7 @@ textarea {
       .header__links {
         display: none; } }
   .header__link {
-    padding: 2.2rem 3rem;
+    padding: 3rem 2.2rem 3rem 1rem;
     display: inline-block;
     font-size: 1.6rem;
     color: #333;
@@ -554,11 +553,14 @@ textarea {
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #006eff; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
         font-size: 1.5rem; } }
+  .header__icon {
+    font-size: 1.6rem;
+    color: #333; }
   .header__main-ham-menu-cont {
     display: none;
     width: 3rem;
@@ -601,7 +603,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #0062b9; }
+      color: #006eff; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
@@ -671,6 +673,16 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+  .skills__category {
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap; }
+  .skills__category-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px; }
 
 .mouse {
   width: 25px;

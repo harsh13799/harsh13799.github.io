@@ -1,6 +1,7 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
+
   &__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -10,5 +11,19 @@
     border-radius: $commonBorderRadius;
     font-weight: 600;
     color: #777;
+  }
+
+  &__category {
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__category-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 }
