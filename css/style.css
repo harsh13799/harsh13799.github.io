@@ -400,6 +400,102 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
+.experience {
+  padding: 20px; }
+  .experience__item {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px; }
+  .experience__item-logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px; }
+  .experience__item-details {
+    flex: 1; }
+  .experience__item h2 {
+    margin: 0;
+    font-size: 20px; }
+  .experience__item p {
+    margin: 10px 0; }
+  .experience__item-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .experience__item-skills li {
+    margin-bottom: 5px; }
+
+.timeline {
+  position: relative; }
+  .timeline__timeline-container {
+    padding-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: inherit;
+    width: 100%; }
+    .timeline__timeline-container:last-of-type {
+      margin-bottom: 0; }
+  .timeline__timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 0;
+    background-color: rgba(0, 110, 255, 0.8);
+    top: 7px;
+    z-index: 1; }
+  .timeline__content {
+    position: relative; }
+  .timeline__content .time {
+    color: #999;
+    font-size: 14px; }
+  .timeline__content p {
+    margin: 0; }
+  .timeline span.line {
+    position: absolute;
+    width: 1px;
+    background-color: #ececec;
+    top: 7px;
+    bottom: 0;
+    left: 4px; }
+  .timeline__title {
+    font-size: 2.5rem; }
+  .timeline__time {
+    font-size: 1.4rem; }
+  .timeline p {
+    font-size: 1.7rem; }
+  .timeline__category {
+    display: flex;
+    flex-wrap: wrap; }
+  .timeline__skill {
+    padding: 0.2rem 1.2rem;
+    margin-right: 0.6rem;
+    font-size: 1.7rem;
+    margin-top: 0.6rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777; }
+  .timeline__skills-container {
+    display: flex;
+    align-items: flex-start; }
+
+.company {
+  display: flex;
+  align-items: center;
+  padding-top: 20px; }
+  .company p {
+    font-size: 2rem; }
+  .company span {
+    font-size: 1.5rem; }
+  .company__item-logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 20px; }
+  .company__details {
+    display: block; }
+
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(0, 110, 255, 0.8), rgba(0, 110, 255, 0.8)), url(../assets/svg/common-bg.svg);
