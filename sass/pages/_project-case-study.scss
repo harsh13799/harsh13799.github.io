@@ -40,7 +40,7 @@
 
 .project-details {
   &__content {
-    padding: 8rem 0;
+    padding: 1rem 0;
     max-width: 90rem;
     margin: auto;
 
@@ -71,7 +71,8 @@
   }
 
   &__desc {
-    margin: 0 0 7rem 0;
+    margin: 0 0 3rem 0;
+    font-size: 1.7rem;
 
     &-para {
       font-size: 1.8rem;
