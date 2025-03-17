@@ -1,368 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Harsh's Portfolio</title>
-    <meta
-      name="description"
-      content="A Full Stack Software Engineer orchestrating innovative
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Harsh's Portfolio</title>
+  <meta name="description" content="A Full Stack Software Engineer orchestrating innovative
     Frontend, Backend, and DevOps solutions to drive holistic success in
-    web and app development projects."
-    />
+    web and app development projects." />
 
-    <link rel="icon" href="./assets/png/portfolio.jpeg" />
+  <link rel="icon" href="./assets/png/portfolio.jpeg" />
 
-    <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/a9b8cb2fde.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/john-doe.png"
-              alt="Harshkumar Patel Logo Image"
-              class="header__logo-img"
-            />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a9b8cb2fde.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/john-doe.png" alt="Harshkumar Patel Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Harshkumar Patel</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <i class="header__icon fas fa-home"></i>
+            <a href="./index.html#home" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <i class="header__icon fas fa-user"></i>
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <i class="header__icon fas fa-briefcase"></i>
+            <a href="./index.html#experience" class="header__link">
+              Experience
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <i class="header__icon fas fa-project-diagram"></i>
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <i class="header__icon fas fa-envelope"></i>
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html#home"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#experience"> Experience </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section id="home" class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, I'm Harshkumar Patel</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          A Full Stack Software Engineer orchestrating innovative Frontend,
+          Backend, and DevOps solutions to drive holistic success in web and
+          app development projects.
+        </p>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://in.linkedin.com/in/harshspatel13799" class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/harsh13799" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Learn about me, my professional pursuits, and my skills in
+          programming and technology.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              I'm <strong>Harshkumar Patel</strong>, a
+              <strong> Software Engineer</strong> based in India with a
+              passion for <strong>Full Stack Software Development</strong>.
+              With a solid background in the E-Learning industry, I have
+              participated in <strong> web and mobile solutions</strong>.
+            </p>
+            <p class="about__content-details-para">
+              As a <strong>freelancer</strong>, I have created a
+              high-performance
+              <strong> Flutter mobile applications</strong>for a C2C
+              marketplace that operates in Sweden and enjoys and continuous
+              growth. Application features many innovative features for spam
+              and scam prevention and has a strong focus on privacy.
+            </p>
+            <p class="about__content-details-para">
+              I thrive on embracing new challenges and opportunities to
+              deliver cutting-edge solutions that drive businesses forward.
+            </p>
+            <p class="about__content-details-para">
+              My commitment to technology, experience and versatility position
+              me as a valuable team member in developing impactful digital
+              product.
+            </p>
           </div>
-          <span class="header__logo-sub">Harshkumar Patel</span>
+          <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <i class="header__icon fas fa-home"></i>
-              <a href="./index.html#home" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <i class="header__icon fas fa-user"></i>
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <i class="header__icon fas fa-briefcase"></i>
-              <a href="./index.html#experience" class="header__link">
-                Experience
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <i class="header__icon fas fa-project-diagram"></i>
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <i class="header__icon fas fa-envelope"></i>
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html#home"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#experience"> Experience </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section id="home" class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, I'm Harshkumar Patel</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            A Full Stack Software Engineer orchestrating innovative Frontend,
-            Backend, and DevOps solutions to drive holistic success in web and
-            app development projects.
-          </p>
-        </div>
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a
-            href="https://in.linkedin.com/in/harshspatel13799"
-            class="home-hero__social-icon-link"
-          >
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://github.com/harsh13799"
-            class="home-hero__social-icon-link"
-          >
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Learn about me, my professional pursuits, and my skills in
-            programming and technology.
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                I'm <strong>Harshkumar Patel</strong>, a
-                <strong> Software Engineer</strong> based in India with a
-                passion for <strong>Full Stack Software Development</strong>.
-                With a solid background in the E-Learning industry, I have
-                participated in <strong> web and mobile solutions</strong>.
-              </p>
-              <p class="about__content-details-para">
-                As a <strong>freelancer</strong>, I have created a
-                high-performance
-                <strong> Flutter mobile applications</strong>for a C2C
-                marketplace that operates in Sweden and enjoys and continuous
-                growth. Application features many innovative features for spam
-                and scam prevention and has a strong focus on privacy.
-              </p>
-              <p class="about__content-details-para">
-                I thrive on embracing new challenges and opportunities to
-                deliver cutting-edge solutions that drive businesses forward.
-              </p>
-              <p class="about__content-details-para">
-                My commitment to technology, experience and versatility position
-                me as a valuable team member in developing impactful digital
-                product.
-              </p>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">Flutter / Dart</div>
+            <div class="skills__skill">
+              <i class="fab fa-angular"></i> Angular
             </div>
-            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">Flutter / Dart</div>
-              <div class="skills__skill">
-                <i class="fab fa-angular"></i> Angular
-              </div>
-              <div class="skills__skill">
-                <i class="fab fa-react"></i> ReactJS
-              </div>
-              <div class="skills__skill">
-                <i class="fab fa-js"></i> JavaScript
-              </div>
-              <div class="skills__skill">TypeScript</div>
-              <div class="skills__skill"><i class="fab fa-html5"></i> HTML</div>
-              <div class="skills__skill">
-                <i class="fab fa-css3-alt"></i> CSS / SCSS
-              </div>
-              <div class="skills__skill">
-                <i class="fab fa-react"></i> React Native
-              </div>
-              <div class="skills__skill">Phaser</div>
+            <div class="skills__skill">
+              <i class="fab fa-react"></i> ReactJS
             </div>
+            <div class="skills__skill">
+              <i class="fab fa-js"></i> JavaScript
+            </div>
+            <div class="skills__skill">TypeScript</div>
+            <div class="skills__skill"><i class="fab fa-html5"></i> HTML</div>
+            <div class="skills__skill">
+              <i class="fab fa-css3-alt"></i> CSS / SCSS
+            </div>
+            <div class="skills__skill">
+              <i class="fab fa-react"></i> React Native
+            </div>
+            <div class="skills__skill">Phaser</div>
+          </div>
 
+          <div class="skills">
+            <div class="skills__category">
+              <div class="skills__skill">
+                <i class="fab fa-node-js"></i> Node.js
+              </div>
+              <div class="skills__skill">
+                <i class="fab fa-dotnet"></i> .NET Core & Framework
+              </div>
+              <div class="skills__skill"><i class="fab fa-php"></i> PHP</div>
+              <div class="skills__skill">
+                <i class="fab fa-python"></i> Python
+              </div>
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">C++</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="skills__category">
+              <div class="skills__skill">
+                <i class="fas fa-database"></i> PostgreSQL
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-snowflake"></i> Snowflake
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-database"></i> Redis Cache
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-search"></i> ElasticSearch
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-fire"></i> Firebase
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-database"></i> MongoDB
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-database"></i> MySQL
+              </div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="skills__category">
+              <div class="skills__skill">
+                <i class="fab fa-aws"></i> AWS Cloud
+              </div>
+              <div class="skills__skill">
+                <i class="fab fa-aws"></i> Serverless Lambda
+              </div>
+              <div class="skills__skill"><i class="fab fa-aws"></i> S3</div>
+              <div class="skills__skill">
+                <i class="fab fa-aws"></i> QuickSight
+              </div>
+              <div class="skills__skill">
+                <i class="fab fa-docker"></i> Docker
+              </div>
+              <div class="skills__skill">
+                <i class="fab fa-jenkins"></i> Jenkins
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-code-branch"></i> CI/CD
+              </div>
+              <div class="skills__skill"><i class="fab fa-git"></i> GIT</div>
+              <div class="skills__skill">
+                <i class="fab fa-gitlab"></i> GitLab
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-chart-line"></i> Rally
+              </div>
+              <div class="skills__skill">
+                <i class="fas fa-tasks"></i> Redmine
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience" class="experience sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Experience</span>
+        <span class="heading-sec__sub">
+          Explore my professional journey through various roles and
+          accomplishments below.
+        </span>
+      </h2>
+    </div>
+    <div class="main-container company">
+      <div class="company__item-logo">
+        <img src="./assets/png/vu-city.png" alt="Company Logo" />
+      </div>
+      <div class="company__details">
+        <a href="https://www.vu.city/" target="_blank" class="">VU City<i class="fas fa-link"></i></a>
+        <span>Full-Time(Hybrid) · London, UK · 9 Months</span>
+      </div>
+    </div>
+    <div class="main-container timeline">
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">
+            Full Stack Developer
+          </h4>
+          <span class="timeline__time">July 2024 - <strong>Present</strong></span>
+          <div>
+            <p>
+              Architected scalable web applications using Next.js, GraphQL, and AWS while enhancing spatial data
+              visualization with Mapbox, GIS tools, and Three.js to enable advanced interactions via WebHooks;
+              collaborated cross-functionally with Modelling, Data, Engine, QA, and Support teams using Agile
+              methodologies, resolving complex issues by optimizing GCP logs, transitioning Auth0 rules to hooks, and
+              implementing AppSync with Knex and Prisma (ORM).
+            </p>
+          </div>
+          <div class="timeline__skills-container">
             <div class="skills">
-              <div class="skills__category">
-                <div class="skills__skill">
+              <div class="timeline__category">
+                <div class="timeline__skill">React</div>
+                <div class="timeline__skill">
+                  <i class="fab"></i>NextJS
+                </div>
+                <div class="timeline__skill">NodeJS</div>
+                <div class="timeline__skill">
+                  <i class="fa-brands"></i>ThreeJS
+                </div>
+                <div class="timeline__skill">
+                  <i class="fa-brands"></i>GraphQL
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab"></i> Postgres
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas"></i>AWS
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas"></i>GCP
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab"></i>Kubernates
+                </div>
+                <div class="timeline__skill">
+                  <i class="fa-brands"></i>Stripe
+                </div>
+                <div class="timeline__skill">
+                  <i class="fa-brands"></i>Auth0
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="line"></span>
+    </div>
+    <div class="main-container company">
+      <div class="company__item-logo">
+        <img src="./assets/png/loppis.png" alt="Company Logo" />
+      </div>
+      <div class="company__details">
+        <a href="https://loppis.app/" target="_blank" class="">Loppis <i class="fas fa-link"></i></a>
+        <span>Freelance(Remote) · Stockholm, Sweden · 3 Years 2 Months</span>
+      </div>
+    </div>
+    <div class="main-container timeline">
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">
+            Full Stack Developer - Flutter application for iOS and Android
+          </h4>
+          <span class="timeline__time">Jun 2021 - July 2024</span>
+          <div>
+            <p>Created a referral system, integrated Firebase SDK into admin
+              interface, integrated SendGrid to enable transactional emails
+              under various situations, resolved UI and logical challenges,
+              implemented real-time chat, security and privacy features.
+            </p>
+          </div>
+          <div class="timeline__skills-container">
+            <div class="skills">
+              <div class="timeline__category">
+                <div class="timeline__skill">Flutter / Dart</div>
+                <div class="timeline__skill">
+                  <i class="fab fa-php"></i> PHP
+                </div>
+                <div class="timeline__skill">Codeigniter</div>
+                <div class="timeline__skill">
                   <i class="fab fa-node-js"></i> Node.js
                 </div>
-                <div class="skills__skill">
-                  <i class="fab fa-dotnet"></i> .NET Core & Framework
-                </div>
-                <div class="skills__skill"><i class="fab fa-php"></i> PHP</div>
-                <div class="skills__skill">
-                  <i class="fab fa-python"></i> Python
-                </div>
-                <div class="skills__skill">C#</div>
-                <div class="skills__skill">C++</div>
-              </div>
-            </div>
-
-            <div class="skills">
-              <div class="skills__category">
-                <div class="skills__skill">
-                  <i class="fas fa-database"></i> PostgreSQL
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-snowflake"></i> Snowflake
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-database"></i> Redis Cache
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-search"></i> ElasticSearch
-                </div>
-                <div class="skills__skill">
+                <div class="timeline__skill">
                   <i class="fas fa-fire"></i> Firebase
                 </div>
-                <div class="skills__skill">
+                <div class="timeline__skill">
+                  <i class="fas fa-database"></i> MySQL
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-gitlab"></i> GitLab
+                </div>
+                <div class="timeline__skill">
+                  <i class="fa-brands fa-linode"></i> Linode
+                </div>
+                <div class="timeline__skill">
+                  <i class="fa-brands fa-linux"></i> Linux
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="line"></span>
+    </div>
+    <div class="main-container company">
+      <div class="company__item-logo">
+        <img src="./assets/png/zeus.jpeg" alt="Company Logo" />
+      </div>
+      <div class="company__details">
+        <a href="https://www.zeuslearning.com/" target="_blank" class="">Zeus Learning Pvt Ltd <i
+            class="fas fa-link"></i></a>
+        <span>Full-time · Mumbai, India · 4 Years 1 Months</span>
+      </div>
+    </div>
+    <div class="main-container">
+      <p class="role_description">
+        Led the implementation of cutting-edge features and amplified existing
+        functionalities within Learning Management System (LMS) projects.
+        Employed a rigorous Test-Driven Development (TDD) methodology across
+        diverse domains including Frontend, Backend, DevOps, and Automation,
+        ensuring seamless integration and robust performance across multiple
+        sites and technologies.
+      </p>
+    </div>
+    <div class="main-container timeline">
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">Senior Software Engineer</h4>
+          <span class="timeline__time">Jul 2022 - Jan 2024 · 1 Year 7 Months</span>
+          <div class="timeline__skills-container">
+            <div class="skills">
+              <div class="timeline__category">
+                <div class="timeline__skill">Agile Methodologies</div>
+                <div class="timeline__skill">
+                  <i class="fab fa-dotnet"></i> .NET Core &amp; Framework
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-aws"></i> Amazon S3
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-aws"></i> Amazon QuickSight
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-jenkins"></i> Jenkins
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-code-branch"></i> CI/CD
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-snowflake"></i> Snowflake
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-database"></i> Dynamodb
+                </div>
+                <div class="timeline__skill">
                   <i class="fas fa-database"></i> MongoDB
                 </div>
-                <div class="skills__skill">
+                <div class="timeline__skill">
+                  <i class="fab fa-docker"></i> Docker
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">Software Engineer</h4>
+          <span class="timeline__time">Aug 2020 - July 2022 · 2 Years </span>
+          <div class="timeline__skills-container">
+            <div class="skills">
+              <div class="timeline__category">
+                <div class="timeline__skill">
+                  <i class="fab fa-angular"></i> Angular
+                </div>
+                <div class="timeline__skill">TypeScript</div>
+                <div class="timeline__skill">
+                  <i class="fab fa-js"></i> JavaScript
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-html5"></i> HTML
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-css3-alt"></i> CSS / SCSS
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-node-js"></i> Node.js
+                </div>
+                <div class="timeline__skill">C#</div>
+                <div class="timeline__skill">
+                  <i class="fab fa-python"></i> Python
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-aws"></i> Serverless Lambda
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-database"></i> PostgreSQL
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-search"></i> ElasticSearch
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-database"></i> Redis
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">Intern</h4>
+          <span class="timeline__time">Jan 2020 - Aug 2020 · 8 Months </span>
+          <div class="timeline__skills-container">
+            <div class="skills">
+              <div class="timeline__category">
+                <div class="timeline__skill">
+                  <i class="fab fa-react"></i> ReactJS
+                </div>
+                <div class="timeline__skill">Phaser</div>
+                <div class="timeline__skill">
+                  <i class="fab fa-js"></i> JavaScript
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-html5"></i> HTML
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-css3-alt"></i> CSS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="line"></span>
+    </div>
+    <div class="main-container company">
+      <div class="company__item-logo">
+        <img src="./assets/png/mahadev.jpeg" alt="Company Logo" />
+      </div>
+      <div class="company__details">
+        <a href="https://www.youtube.com/@mahadevfilmhomeproduction9120" target="_blank" class="">Mahadev Film Home
+          Production <i class="fas fa-link"></i></a>
+        <span>Internship(Remote) · Orissa, India · 3 Months</span>
+      </div>
+    </div>
+    <div class="main-container timeline">
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">Android Developer</h4>
+          <span class="timeline__time">Nov 2019 - Jan 2020</span>
+          <div>
+            <p>
+              Created a rural theater app. The app enables easy ticket booking
+              by utilizing Google Maps, Paytm, RazorPay, GooglePay
+              integration, and Firebase authentication. Designed custom user
+              interface for streamlined management of content.
+            </p>
+          </div>
+          <div class="timeline__skills-container">
+            <div class="skills">
+              <div class="timeline__category">
+                <div class="timeline__skill">
+                  <i class="fa-brands fa-java"></i> Android (Java)
+                </div>
+                <div class="timeline__skill">
+                  <i class="fab fa-php"></i> PHP
+                </div>
+                <div class="timeline__skill">
+                  <i class="fas fa-fire"></i> Firebase
+                </div>
+                <div class="timeline__skill">
                   <i class="fas fa-database"></i> MySQL
                 </div>
               </div>
             </div>
-
+          </div>
+        </div>
+      </div>
+      <span class="line"></span>
+    </div>
+    <div class="main-container company">
+      <div class="company__item-logo">
+        <img src="./assets/png/gosotek.jpeg" alt="Company Logo" />
+      </div>
+      <div class="company__details">
+        <a href="https://www.linkedin.com/company/gosotek-technologies-pvt-ltd/" target="_blank" class="">Gosotek
+          Technologies Pvt Ltd<i class="fas fa-link"></i></a>
+        <span>Internship(Remote) · Indore, India· 2 Months</span>
+      </div>
+    </div>
+    <div class="main-container timeline">
+      <div class="timeline__timeline-container">
+        <div class="timeline__content">
+          <h4 class="timeline__title">Android Developer</h4>
+          <span class="timeline__time">Apr 2019 - May 2019</span>
+          <div>
+            <p>
+              Built 'QRHazri' and 'Attendance Taker' apps using Android
+              Studio, replacing manual processes with efficient digital
+              solutions. Integration of QR code scanning, PHP, MySQL, and
+              other technologies to simplify student and instructor workflows
+              and improve time management.
+            </p>
+          </div>
+          <div class="timeline__skills-container">
             <div class="skills">
-              <div class="skills__category">
-                <div class="skills__skill">
-                  <i class="fab fa-aws"></i> AWS Cloud
-                </div>
-                <div class="skills__skill">
-                  <i class="fab fa-aws"></i> Serverless Lambda
-                </div>
-                <div class="skills__skill"><i class="fab fa-aws"></i> S3</div>
-                <div class="skills__skill">
-                  <i class="fab fa-aws"></i> QuickSight
-                </div>
-                <div class="skills__skill">
-                  <i class="fab fa-docker"></i> Docker
-                </div>
-                <div class="skills__skill">
-                  <i class="fab fa-jenkins"></i> Jenkins
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-code-branch"></i> CI/CD
-                </div>
-                <div class="skills__skill"><i class="fab fa-git"></i> GIT</div>
-                <div class="skills__skill">
-                  <i class="fab fa-gitlab"></i> GitLab
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-chart-line"></i> Rally
-                </div>
-                <div class="skills__skill">
-                  <i class="fas fa-tasks"></i> Redmine
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="experience" class="experience sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">Experience</span>
-          <span class="heading-sec__sub">
-            Explore my professional journey through various roles and
-            accomplishments below.
-          </span>
-        </h2>
-      </div>
-      <div class="main-container company">
-        <div class="company__item-logo">
-          <img src="./assets/png/vu-city.png" alt="Company Logo" />
-        </div>
-        <div class="company__details">
-          <a href="https://www.vu.city/" target="_blank" class=""
-            >VU City<i class="fas fa-link"></i
-          ></a>
-          <span>Full-Time(Hybrid) · London, UK · 9 Months</span>
-        </div>
-      </div>
-      <div class="main-container timeline">
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">
-              Full Stack Developer
-            </h4>
-            <span class="timeline__time"
-              >July 2024 - <strong>Present</strong></span
-            >
-            <div>
-              <p>
-                Created a referral system, integrated Firebase SDK into admin
-                interface, integrated SendGrid to enable transactional emails
-                under various situations, resolved UI and logical challenges,
-                implemented real-time chat, security and privacy features.
-              </p>
-            </div>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">React</div>
-                  <div class="timeline__skill">
-                    <i class="fab"></i>NextJS
-                  </div>
-                  <div class="timeline__skill">NodeJS</div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands"></i>ThreeJS
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands"></i>GraphQL
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab"></i> Postgres
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas"></i>AWS
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas"></i>GCP
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab"></i>Kubernates
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands"></i>Stripe
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands"></i>Auth0
+              <div class="timeline__category">
+                <div class="skills">
+                  <div class="timeline__category">
+                    <div class="timeline__skill">
+                      <i class="fa-brands fa-java"></i> Android (Java)
+                    </div>
+                    <div class="timeline__skill">
+                      <i class="fab fa-php"></i> PHP
+                    </div>
+                    <div class="timeline__skill">
+                      <i class="fas fa-database"></i> MySQL
+                    </div>
                   </div>
                 </div>
               </div>
@@ -371,801 +614,471 @@
         </div>
         <span class="line"></span>
       </div>
-      <div class="main-container company">
-        <div class="company__item-logo">
-          <img src="./assets/png/loppis.png" alt="Company Logo" />
-        </div>
-        <div class="company__details">
-          <a href="https://loppis.app/" target="_blank" class=""
-            >Loppis <i class="fas fa-link"></i
-          ></a>
-          <span>Freelance(Remote) · Stockholm, Sweden · 3 Years 2 Months</span>
-        </div>
-      </div>
-      <div class="main-container timeline">
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">
-              Full Stack Developer - Flutter application for iOS and Android
-            </h4>
-            <span class="timeline__time"
-              >Jun 2021 - July 2024</span
-            >
-            <div>
-              <p>
-                Architected scalable web applications using Next.js, GraphQL, and AWS while enhancing spatial data visualization with Mapbox, GIS tools, and Three.js to enable advanced interactions via WebHooks; collaborated cross-functionally with Modelling, Data, Engine, QA, and Support teams using Agile methodologies, resolving complex issues by optimizing GCP logs, transitioning Auth0 rules to hooks, and implementing AppSync with Knex and Prisma (ORM).
-              </p>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here are some of the projects I have worked on, each of which
+          include a screenshots and details.
+        </span>
+      </h2>
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides1 fade">
+              <img src="./assets/jpeg/L1.png" style="width: 100%" />
             </div>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">Flutter / Dart</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-php"></i> PHP
-                  </div>
-                  <div class="timeline__skill">Codeigniter</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-node-js"></i> Node.js
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-fire"></i> Firebase
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> MySQL
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-gitlab"></i> GitLab
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands fa-linode"></i> Linode
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fa-brands fa-linux"></i> Linux
-                  </div>
-                </div>
-              </div>
+            <div class="mySlides1 fade">
+              <img src="./assets/jpeg/L2.png" style="width: 100%" />
+            </div>
+            <div class="mySlides1 fade">
+              <img src="./assets/jpeg/L3.png" style="width: 100%" />
+            </div>
+            <div class="mySlides1 fade">
+              <img src="./assets/jpeg/L4.png" style="width: 100%" />
+            </div>
+            <div class="mySlides1 fade">
+              <img src="./assets/jpeg/L5.png" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
+            <a class="next" onclick="plusSlides(1, 0)">❯</a>
+            <div class="dot__container">
+              <span class="dot1 dot" onclick="currentSlide(1, 0)"></span>
+              <span class="dot1 dot" onclick="currentSlide(2, 0)"></span>
+              <span class="dot1 dot" onclick="currentSlide(3, 0)"></span>
+              <span class="dot1 dot" onclick="currentSlide(4, 0)"></span>
+              <span class="dot1 dot" onclick="currentSlide(5, 0)"></span>
             </div>
           </div>
-        </div>
-        <span class="line"></span>
-      </div>
-      <div class="main-container company">
-        <div class="company__item-logo">
-          <img src="./assets/png/zeus.jpeg" alt="Company Logo" />
-        </div>
-        <div class="company__details">
-          <a href="https://www.zeuslearning.com/" target="_blank" class=""
-            >Zeus Learning Pvt Ltd <i class="fas fa-link"></i
-          ></a>
-          <span>Full-time · Mumbai, India · 4 Years 1 Months</span>
-        </div>
-      </div>
-      <div class="main-container">
-        <p class="role_description">
-          Led the implementation of cutting-edge features and amplified existing
-          functionalities within Learning Management System (LMS) projects.
-          Employed a rigorous Test-Driven Development (TDD) methodology across
-          diverse domains including Frontend, Backend, DevOps, and Automation,
-          ensuring seamless integration and robust performance across multiple
-          sites and technologies.
-        </p>
-      </div>
-      <div class="main-container timeline">
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">Senior Software Engineer</h4>
-            <span class="timeline__time"
-              >Jul 2022 - Jan 2024 · 1 Year 7 Months</span
-            >
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">Agile Methodologies</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-dotnet"></i> .NET Core &amp; Framework
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-aws"></i> Amazon S3
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-aws"></i> Amazon QuickSight
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-jenkins"></i> Jenkins
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-code-branch"></i> CI/CD
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-snowflake"></i> Snowflake
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> Dynamodb
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> MongoDB
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-docker"></i> Docker
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">Software Engineer</h4>
-            <span class="timeline__time">Aug 2020 - July 2022 · 2 Years </span>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">
-                    <i class="fab fa-angular"></i> Angular
-                  </div>
-                  <div class="timeline__skill">TypeScript</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-js"></i> JavaScript
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-html5"></i> HTML
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-css3-alt"></i> CSS / SCSS
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-node-js"></i> Node.js
-                  </div>
-                  <div class="timeline__skill">C#</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-python"></i> Python
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-aws"></i> Serverless Lambda
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> PostgreSQL
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-search"></i> ElasticSearch
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> Redis
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">Intern</h4>
-            <span class="timeline__time">Jan 2020 - Aug 2020 · 8 Months </span>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">
-                    <i class="fab fa-react"></i> ReactJS
-                  </div>
-                  <div class="timeline__skill">Phaser</div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-js"></i> JavaScript
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-html5"></i> HTML
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-css3-alt"></i> CSS
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="line"></span>
-      </div>
-      <div class="main-container company">
-        <div class="company__item-logo">
-          <img src="./assets/png/mahadev.jpeg" alt="Company Logo" />
-        </div>
-        <div class="company__details">
-          <a
-            href="https://www.youtube.com/@mahadevfilmhomeproduction9120"
-            target="_blank"
-            class=""
-            >Mahadev Film Home Production <i class="fas fa-link"></i
-          ></a>
-          <span>Internship(Remote) · Orissa, India · 3 Months</span>
-        </div>
-      </div>
-      <div class="main-container timeline">
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">Android Developer</h4>
-            <span class="timeline__time">Nov 2019 - Jan 2020</span>
-            <div>
-              <p>
-                Created a rural theater app. The app enables easy ticket booking
-                by utilizing Google Maps, Paytm, RazorPay, GooglePay
-                integration, and Firebase authentication. Designed custom user
-                interface for streamlined management of content.
-              </p>
-            </div>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="timeline__skill">
-                    <i class="fa-brands fa-java"></i> Android (Java)
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fab fa-php"></i> PHP
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-fire"></i> Firebase
-                  </div>
-                  <div class="timeline__skill">
-                    <i class="fas fa-database"></i> MySQL
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="line"></span>
-      </div>
-      <div class="main-container company">
-        <div class="company__item-logo">
-          <img src="./assets/png/gosotek.jpeg" alt="Company Logo" />
-        </div>
-        <div class="company__details">
-          <a
-            href="https://www.linkedin.com/company/gosotek-technologies-pvt-ltd/"
-            target="_blank"
-            class=""
-            >Gosotek Technologies Pvt Ltd<i class="fas fa-link"></i
-          ></a>
-          <span>Internship(Remote) · Indore, India· 2 Months</span>
-        </div>
-      </div>
-      <div class="main-container timeline">
-        <div class="timeline__timeline-container">
-          <div class="timeline__content">
-            <h4 class="timeline__title">Android Developer</h4>
-            <span class="timeline__time">Apr 2019 - May 2019</span>
-            <div>
-              <p>
-                Built 'QRHazri' and 'Attendance Taker' apps using Android
-                Studio, replacing manual processes with efficient digital
-                solutions. Integration of QR code scanning, PHP, MySQL, and
-                other technologies to simplify student and instructor workflows
-                and improve time management.
-              </p>
-            </div>
-            <div class="timeline__skills-container">
-              <div class="skills">
-                <div class="timeline__category">
-                  <div class="skills">
-                    <div class="timeline__category">
-                      <div class="timeline__skill">
-                        <i class="fa-brands fa-java"></i> Android (Java)
-                      </div>
-                      <div class="timeline__skill">
-                        <i class="fab fa-php"></i> PHP
-                      </div>
-                      <div class="timeline__skill">
-                        <i class="fas fa-database"></i> MySQL
-                      </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Loppis</h3>
+            <p class="projects__row-content-subtitle">
+              June 2021 - Present · Associated with
+              <strong>Loppis</strong>
+            </p>
+            <p class="projects__row-content-desc">
+              Flea markets are also an excellent source of inspiration and
+              discovery.
+            </p>
+            <section class="project-details">
+              <div class="main-container">
+                <div class="project-details__content">
+                  <div class="project-details__content-main">
+                    <div class="project-details__desc">
+                      <ul>
+                        <li>
+                          <strong>Enhanced UI/UX Experience</strong>:
+                          Implemented a dynamic Refer and Earn system,
+                          seamlessly integrated Firebase SDK into the Admin
+                          Portal, and introduced innovative features to
+                          elevate the user interface.
+                        </li>
+                        <li>
+                          <strong>Revolutionized User Communication</strong>:
+                          Transformed user engagement through strategic
+                          updates, including seamless integration with
+                          SendGrid for enhanced communication. Tackled complex
+                          challenges with finesse, introducing cutting-edge
+                          functionalities such as real-time chat, push
+                          notifications, and advanced state management.
+                        </li>
+                        <li>
+                          <strong>Informed Growth Strategies</strong>:
+                          Engineered a robust Node.js REST APIs backend using
+                          Express.js, empowering the platform with scalable
+                          and efficient functionalities. Automated deployment
+                          processes through GitLab ensured seamless operations
+                          and facilitated informed growth strategies.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-          <span class="line"></span>
         </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            Here are some of the projects I have worked on, each of which
-            include a screenshots and details.
-          </span>
-        </h2>
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides1 fade">
-                <img src="./assets/jpeg/L1.png" style="width: 100%" />
-              </div>
-              <div class="mySlides1 fade">
-                <img src="./assets/jpeg/L2.png" style="width: 100%" />
-              </div>
-              <div class="mySlides1 fade">
-                <img src="./assets/jpeg/L3.png" style="width: 100%" />
-              </div>
-              <div class="mySlides1 fade">
-                <img src="./assets/jpeg/L4.png" style="width: 100%" />
-              </div>
-              <div class="mySlides1 fade">
-                <img src="./assets/jpeg/L5.png" style="width: 100%" />
-              </div>
-              <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
-              <a class="next" onclick="plusSlides(1, 0)">❯</a>
-              <div class="dot__container">
-                <span class="dot1 dot" onclick="currentSlide(1, 0)"></span>
-                <span class="dot1 dot" onclick="currentSlide(2, 0)"></span>
-                <span class="dot1 dot" onclick="currentSlide(3, 0)"></span>
-                <span class="dot1 dot" onclick="currentSlide(4, 0)"></span>
-                <span class="dot1 dot" onclick="currentSlide(5, 0)"></span>
-              </div>
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides2 fade">
+              <img src="./assets/png/LE1.png" style="width: 100%" />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Loppis</h3>
-              <p class="projects__row-content-subtitle">
-                June 2021 - Present · Associated with
-                <strong>Loppis</strong>
-              </p>
-              <p class="projects__row-content-desc">
-                Flea markets are also an excellent source of inspiration and
-                discovery.
-              </p>
-              <section class="project-details">
-                <div class="main-container">
-                  <div class="project-details__content">
-                    <div class="project-details__content-main">
-                      <div class="project-details__desc">
-                        <ul>
-                          <li>
-                            <strong>Enhanced UI/UX Experience</strong>:
-                            Implemented a dynamic Refer and Earn system,
-                            seamlessly integrated Firebase SDK into the Admin
-                            Portal, and introduced innovative features to
-                            elevate the user interface.
-                          </li>
-                          <li>
-                            <strong>Revolutionized User Communication</strong>:
-                            Transformed user engagement through strategic
-                            updates, including seamless integration with
-                            SendGrid for enhanced communication. Tackled complex
-                            challenges with finesse, introducing cutting-edge
-                            functionalities such as real-time chat, push
-                            notifications, and advanced state management.
-                          </li>
-                          <li>
-                            <strong>Informed Growth Strategies</strong>:
-                            Engineered a robust Node.js REST APIs backend using
-                            Express.js, empowering the platform with scalable
-                            and efficient functionalities. Automated deployment
-                            processes through GitLab ensured seamless operations
-                            and facilitated informed growth strategies.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides2 fade">
-                <img src="./assets/png/LE1.png" style="width: 100%" />
-              </div>
 
-              <div class="mySlides2 fade">
-                <img src="./assets/png/LE2.png" style="width: 100%" />
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="./assets/png/LE3.png" style="width: 100%" />
-              </div>
-
-              <a class="prev" onclick="plusSlides(-1, 1)">❮</a>
-              <a class="next" onclick="plusSlides(1, 1)">❯</a>
-              <div class="dot__container">
-                <span class="dot2 dot" onclick="currentSlide(1, 1)"></span>
-                <span class="dot2 dot" onclick="currentSlide(2, 1)"></span>
-                <span class="dot2 dot" onclick="currentSlide(3, 1)"></span>
-              </div>
+            <div class="mySlides2 fade">
+              <img src="./assets/png/LE2.png" style="width: 100%" />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Learning Express</h3>
-              <p class="projects__row-content-subtitle">
-                Aug 2020 - Present · Associated with
-                <strong>Zeus Learning</strong>
-              </p>
-              <p class="projects__row-content-desc">
-                E-Learning solutions using cutting-edge technologies for
-                immersive and effective learning experiences.
-              </p>
-              <section class="project-details">
-                <div class="main-container">
-                  <div class="project-details__content">
-                    <div class="project-details__content-main">
-                      <div class="project-details__desc">
-                        <ul>
-                          <li>
-                            <strong>Enhanced Security & Trust</strong>: LMS with
-                            advanced REST API security and seamless integration
-                            of third-party tools, boosting data integrity and
-                            user confidence.
-                          </li>
-                          <li>
-                            <strong>User-Centric Experience</strong>:
-                            Prioritized responsive design and accessibility
-                            compliance, optimizing engagement and inclusivity
-                            for diverse learners.
-                          </li>
-                          <li>
-                            <strong>Efficient Operations</strong>: Automated
-                            testing and streamlined workflows improved
-                            operational efficiency, saving costs and time.
-                          </li>
-                          <li>
-                            <strong>Informed Growth Strategies</strong>:
-                            Leverages BI tools for actionable insights, enabling
-                            informed decisions and strategic business growth.
-                          </li>
-                        </ul>
-                      </div>
+
+            <div class="mySlides2 fade">
+              <img src="./assets/png/LE3.png" style="width: 100%" />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 1)">❮</a>
+            <a class="next" onclick="plusSlides(1, 1)">❯</a>
+            <div class="dot__container">
+              <span class="dot2 dot" onclick="currentSlide(1, 1)"></span>
+              <span class="dot2 dot" onclick="currentSlide(2, 1)"></span>
+              <span class="dot2 dot" onclick="currentSlide(3, 1)"></span>
+            </div>
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Learning Express</h3>
+            <p class="projects__row-content-subtitle">
+              Aug 2020 - Present · Associated with
+              <strong>Zeus Learning</strong>
+            </p>
+            <p class="projects__row-content-desc">
+              E-Learning solutions using cutting-edge technologies for
+              immersive and effective learning experiences.
+            </p>
+            <section class="project-details">
+              <div class="main-container">
+                <div class="project-details__content">
+                  <div class="project-details__content-main">
+                    <div class="project-details__desc">
+                      <ul>
+                        <li>
+                          <strong>Enhanced Security & Trust</strong>: LMS with
+                          advanced REST API security and seamless integration
+                          of third-party tools, boosting data integrity and
+                          user confidence.
+                        </li>
+                        <li>
+                          <strong>User-Centric Experience</strong>:
+                          Prioritized responsive design and accessibility
+                          compliance, optimizing engagement and inclusivity
+                          for diverse learners.
+                        </li>
+                        <li>
+                          <strong>Efficient Operations</strong>: Automated
+                          testing and streamlined workflows improved
+                          operational efficiency, saving costs and time.
+                        </li>
+                        <li>
+                          <strong>Informed Growth Strategies</strong>:
+                          Leverages BI tools for actionable insights, enabling
+                          informed decisions and strategic business growth.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </section>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides3 fade">
-                <img src="./assets/png/TS5.jpeg" style="width: 100%" />
               </div>
-              <div class="mySlides3 fade">
-                <img src="./assets/png/TS1.png" style="width: 100%" />
-              </div>
-              <div class="mySlides3 fade">
-                <img src="./assets/png/TS2.png" style="width: 100%" />
-              </div>
-              <div class="mySlides3 fade">
-                <img src="./assets/png/TS3.png" style="width: 100%" />
-              </div>
-              <div class="mySlides3 fade">
-                <img src="./assets/png/TS4.png" style="width: 100%" />
-              </div>
-
-              <a class="prev" onclick="plusSlides(-1, 2)">❮</a>
-              <a class="next" onclick="plusSlides(1, 2)">❯</a>
-              <div class="dot__container">
-                <span class="dot3 dot" onclick="currentSlide(1, 2)"></span>
-                <span class="dot3 dot" onclick="currentSlide(2, 2)"></span>
-                <span class="dot3 dot" onclick="currentSlide(3, 2)"></span>
-                <span class="dot3 dot" onclick="currentSlide(4, 2)"></span>
-                <span class="dot3 dot" onclick="currentSlide(5, 2)"></span>
-              </div>
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">
-                Teaching Strategies SFDA - (DSA player)
-              </h3>
-              <p class="projects__row-content-subtitle">
-                Jan 2020 - Jul 2020 · Associated with
-                <strong>Zeus Learning</strong>
-              </p>
-              <section class="project-details">
-                <div class="main-container">
-                  <div class="project-details__content">
-                    <div class="project-details__content-main">
-                      <div class="project-details__desc">
-                        <ul>
-                          <li>
-                            <strong>Innovative Skill Assessment Platform</strong
-                            >: Contributed to DSA (Digital Student Assessment),
-                            an innovative platform for evaluating the skills of
-                            kide ranging between kindergarten to 3rd-gradrs,
-                            encompassing pronunciation, reading, listening, and
-                            math proficiencies.
-                          </li>
-                          <li>
-                            <strong>Engaging Assessment Tasks</strong>: Key role
-                            in crafting interactive animations like MCQ,
-                            Drag-and-Drop, and more, enriching student
-                            evaluations and fostering active learning.
-                          </li>
-                          <li>
-                            <strong>Holistic Abilities Evaluation</strong>:
-                            Developed dynamic tasks, including Selection,
-                            Reordering, Highlighting Text, and Sorting, offering
-                            a comprehensive assessment and enhancing students'
-                            educational journeys.
-                          </li>
-                          <li>
-                            <strong>Enhanced Learning Experience</strong>:
-                            Creating an engaging and holistic evaluation system,
-                            resulting in an enriched learning experience for
-                            young students.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH1.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH2.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH3.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH4.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH5.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides6 fade">
-                <img src="./assets/jpeg/MH6.jpg" style="width: 100%" />
-              </div>
-              <a class="prev" onclick="plusSlides(-1, 5)">❮</a>
-              <a class="next" onclick="plusSlides(1, 5)">❯</a>
-              <div class="dot__container">
-                <span class="dot6 dot" onclick="currentSlide(1, 5)"></span>
-                <span class="dot6 dot" onclick="currentSlide(2, 5)"></span>
-                <span class="dot6 dot" onclick="currentSlide(3, 5)"></span>
-                <span class="dot6 dot" onclick="currentSlide(4, 5)"></span>
-                <span class="dot6 dot" onclick="currentSlide(5, 5)"></span>
-                <span class="dot6 dot" onclick="currentSlide(6, 5)"></span>
-              </div>
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">
-                Rural Movie Theater App - Android
-              </h3>
-              <p class="projects__row-content-subtitle">
-                Nov 2019 - Jan 2020 · Associated with
-                <strong>Mahadev Film Home</strong>
-                Production
-              </p>
-              <section class="project-details">
-                <div class="main-container">
-                  <div class="project-details__content">
-                    <div class="project-details__content-main">
-                      <div class="project-details__desc">
-                        <ul>
-                          <li>
-                            <strong>Revolutionizing Rural Theaters</strong>:
-                            Created an innovative app that empowers rural
-                            theaters through digitalization, driving rapid
-                            revenue growth and modernizing the theater
-                            experience.
-                          </li>
-                          <li>
-                            <strong>Seamless Ticket Booking</strong>: Developed
-                            a user-friendly platform for seamless ticket
-                            booking, leveraging Google Map SDK and integrating
-                            popular payment gateways like Paytm, RazorPay, and
-                            GooglePay.
-                          </li>
-                          <li>
-                            <strong>Firebase-Powered Efficiency</strong>:
-                            Utilized Firebase for authentication, database
-                            management, and file storage, ensuring secure and
-                            efficient operations.
-                          </li>
-                          <li>
-                            <strong>Customized Theater Interface</strong>:
-                            Designed a custom interface for theater owners,
-                            enhancing management capabilities and contributing
-                            to a holistic transformation of rural theaters.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides7 fade">
-                <img src="./assets/png/SE1.png" style="width: 100%" />
-              </div>
-              <div class="mySlides7 fade">
-                <img src="./assets/png/SE2.png" style="width: 100%" />
-              </div>
-              <div class="mySlides7 fade">
-                <img src="./assets/png/SE3.png" style="width: 100%" />
-              </div>
-              <div class="mySlides7 fade">
-                <img src="./assets/png/SE4.png" style="width: 100%" />
-              </div>
-              <a class="prev" onclick="plusSlides(-1, 6)">❮</a>
-              <a class="next" onclick="plusSlides(1, 6)">❯</a>
-              <div class="dot__container">
-                <span class="dot7 dot" onclick="currentSlide(1, 6)"></span>
-                <span class="dot7 dot" onclick="currentSlide(2, 6)"></span>
-                <span class="dot7 dot" onclick="currentSlide(3, 6)"></span>
-                <span class="dot7 dot" onclick="currentSlide(4, 6)"></span>
-              </div>
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">
-                Stock & Expense Manager Application
-              </h3>
-              <p class="projects__row-content-subtitle">Dec 2020</p>
-              <p class="projects__row-content-desc">
-                Designed and built a comprehensive app for a local client,
-                featuring functionalities like QR code scanning and generation,
-                PDF and Excel report generation, to streamline stock and expense
-                management.
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides4 fade">
-                <img src="./assets/jpeg/MD1.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides4 fade">
-                <img src="./assets/jpeg/MD2.jpg" style="width: 100%" />
-              </div>
-              <a class="prev" onclick="plusSlides(-1, 3)">❮</a>
-              <a class="next" onclick="plusSlides(1, 3)">❯</a>
-              <div class="dot__container">
-                <span class="dot4 dot" onclick="currentSlide(1, 3)"></span>
-                <span class="dot4 dot" onclick="currentSlide(2, 3)"></span>
-              </div>
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">MazingDay - Flutter</h3>
-              <p class="projects__row-content-desc">
-                I developed the Flutter application for a certain task. This
-                program, which contains several pages and various logical
-                features, was made by me in about two days.
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="slideshow-container">
-              <div class="mySlides5 fade">
-                <img src="./assets/jpeg/YC1.jpg" style="width: 100%" />
-              </div>
-              <div class="mySlides5 fade">
-                <img src="./assets/jpeg/YC2.jpg" style="width: 100%" />
-              </div>
-              <a class="prev" onclick="plusSlides(-1, 4)">❮</a>
-              <a class="next" onclick="plusSlides(1, 4)">❯</a>
-              <div class="dot__container">
-                <span class="dot5 dot" onclick="currentSlide(1, 4)"></span>
-                <span class="dot5 dot" onclick="currentSlide(2, 4)"></span>
-              </div>
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">
-                Medicine Inventory(Yogi Clinic) - ReactNative
-              </h3>
-              <p class="projects__row-content-desc">
-                Developed a user-friendly medical shop app that sends timely
-                notifications before medicine expiry which, streamlines
-                organizing expired medicine data and offers seamless search and
-                filtering options for user convenience.
-              </p>
-            </div>
+            </section>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Don't hesitate to reach out by filling out the form below. I'll
-            respond to you promptly.
-          </span>
-        </h2>
-        <div class="contact__form-container">
-          <form
-            action="https://formspree.io/f/xpzgpjrk"
-            method="POST"
-            class="contact__form"
-          >
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides3 fade">
+              <img src="./assets/png/TS5.jpeg" style="width: 100%" />
             </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
+            <div class="mySlides3 fade">
+              <img src="./assets/png/TS1.png" style="width: 100%" />
             </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
+            <div class="mySlides3 fade">
+              <img src="./assets/png/TS2.png" style="width: 100%" />
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://in.linkedin.com/in/harsh13799"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/harsh13799"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
+            <div class="mySlides3 fade">
+              <img src="./assets/png/TS3.png" style="width: 100%" />
+            </div>
+            <div class="mySlides3 fade">
+              <img src="./assets/png/TS4.png" style="width: 100%" />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 2)">❮</a>
+            <a class="next" onclick="plusSlides(1, 2)">❯</a>
+            <div class="dot__container">
+              <span class="dot3 dot" onclick="currentSlide(1, 2)"></span>
+              <span class="dot3 dot" onclick="currentSlide(2, 2)"></span>
+              <span class="dot3 dot" onclick="currentSlide(3, 2)"></span>
+              <span class="dot3 dot" onclick="currentSlide(4, 2)"></span>
+              <span class="dot3 dot" onclick="currentSlide(5, 2)"></span>
             </div>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Harshkumar Patel</h4>
-            <p class="main-footer__short-desc">
-              A Full Stack Software Engineer orchestrating innovative Frontend,
-              Backend, and DevOps solutions to drive success in web and app
-              development projects.
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              Teaching Strategies SFDA - (DSA player)
+            </h3>
+            <p class="projects__row-content-subtitle">
+              Jan 2020 - Jul 2020 · Associated with
+              <strong>Zeus Learning</strong>
+            </p>
+            <section class="project-details">
+              <div class="main-container">
+                <div class="project-details__content">
+                  <div class="project-details__content-main">
+                    <div class="project-details__desc">
+                      <ul>
+                        <li>
+                          <strong>Innovative Skill Assessment Platform</strong>: Contributed to DSA (Digital Student
+                          Assessment),
+                          an innovative platform for evaluating the skills of
+                          kide ranging between kindergarten to 3rd-gradrs,
+                          encompassing pronunciation, reading, listening, and
+                          math proficiencies.
+                        </li>
+                        <li>
+                          <strong>Engaging Assessment Tasks</strong>: Key role
+                          in crafting interactive animations like MCQ,
+                          Drag-and-Drop, and more, enriching student
+                          evaluations and fostering active learning.
+                        </li>
+                        <li>
+                          <strong>Holistic Abilities Evaluation</strong>:
+                          Developed dynamic tasks, including Selection,
+                          Reordering, Highlighting Text, and Sorting, offering
+                          a comprehensive assessment and enhancing students'
+                          educational journeys.
+                        </li>
+                        <li>
+                          <strong>Enhanced Learning Experience</strong>:
+                          Creating an engaging and holistic evaluation system,
+                          resulting in an enriched learning experience for
+                          young students.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH1.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH2.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH3.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH4.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH5.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides6 fade">
+              <img src="./assets/jpeg/MH6.jpg" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 5)">❮</a>
+            <a class="next" onclick="plusSlides(1, 5)">❯</a>
+            <div class="dot__container">
+              <span class="dot6 dot" onclick="currentSlide(1, 5)"></span>
+              <span class="dot6 dot" onclick="currentSlide(2, 5)"></span>
+              <span class="dot6 dot" onclick="currentSlide(3, 5)"></span>
+              <span class="dot6 dot" onclick="currentSlide(4, 5)"></span>
+              <span class="dot6 dot" onclick="currentSlide(5, 5)"></span>
+              <span class="dot6 dot" onclick="currentSlide(6, 5)"></span>
+            </div>
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              Rural Movie Theater App - Android
+            </h3>
+            <p class="projects__row-content-subtitle">
+              Nov 2019 - Jan 2020 · Associated with
+              <strong>Mahadev Film Home</strong>
+              Production
+            </p>
+            <section class="project-details">
+              <div class="main-container">
+                <div class="project-details__content">
+                  <div class="project-details__content-main">
+                    <div class="project-details__desc">
+                      <ul>
+                        <li>
+                          <strong>Revolutionizing Rural Theaters</strong>:
+                          Created an innovative app that empowers rural
+                          theaters through digitalization, driving rapid
+                          revenue growth and modernizing the theater
+                          experience.
+                        </li>
+                        <li>
+                          <strong>Seamless Ticket Booking</strong>: Developed
+                          a user-friendly platform for seamless ticket
+                          booking, leveraging Google Map SDK and integrating
+                          popular payment gateways like Paytm, RazorPay, and
+                          GooglePay.
+                        </li>
+                        <li>
+                          <strong>Firebase-Powered Efficiency</strong>:
+                          Utilized Firebase for authentication, database
+                          management, and file storage, ensuring secure and
+                          efficient operations.
+                        </li>
+                        <li>
+                          <strong>Customized Theater Interface</strong>:
+                          Designed a custom interface for theater owners,
+                          enhancing management capabilities and contributing
+                          to a holistic transformation of rural theaters.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides7 fade">
+              <img src="./assets/png/SE1.png" style="width: 100%" />
+            </div>
+            <div class="mySlides7 fade">
+              <img src="./assets/png/SE2.png" style="width: 100%" />
+            </div>
+            <div class="mySlides7 fade">
+              <img src="./assets/png/SE3.png" style="width: 100%" />
+            </div>
+            <div class="mySlides7 fade">
+              <img src="./assets/png/SE4.png" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 6)">❮</a>
+            <a class="next" onclick="plusSlides(1, 6)">❯</a>
+            <div class="dot__container">
+              <span class="dot7 dot" onclick="currentSlide(1, 6)"></span>
+              <span class="dot7 dot" onclick="currentSlide(2, 6)"></span>
+              <span class="dot7 dot" onclick="currentSlide(3, 6)"></span>
+              <span class="dot7 dot" onclick="currentSlide(4, 6)"></span>
+            </div>
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              Stock & Expense Manager Application
+            </h3>
+            <p class="projects__row-content-subtitle">Dec 2020</p>
+            <p class="projects__row-content-desc">
+              Designed and built a comprehensive app for a local client,
+              featuring functionalities like QR code scanning and generation,
+              PDF and Excel report generation, to streamline stock and expense
+              management.
             </p>
           </div>
         </div>
-        <div class="main-footer__lower">&copy; Copyright 2024.</div>
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides4 fade">
+              <img src="./assets/jpeg/MD1.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides4 fade">
+              <img src="./assets/jpeg/MD2.jpg" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 3)">❮</a>
+            <a class="next" onclick="plusSlides(1, 3)">❯</a>
+            <div class="dot__container">
+              <span class="dot4 dot" onclick="currentSlide(1, 3)"></span>
+              <span class="dot4 dot" onclick="currentSlide(2, 3)"></span>
+            </div>
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">MazingDay - Flutter</h3>
+            <p class="projects__row-content-desc">
+              I developed the Flutter application for a certain task. This
+              program, which contains several pages and various logical
+              features, was made by me in about two days.
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="slideshow-container">
+            <div class="mySlides5 fade">
+              <img src="./assets/jpeg/YC1.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides5 fade">
+              <img src="./assets/jpeg/YC2.jpg" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 4)">❮</a>
+            <a class="next" onclick="plusSlides(1, 4)">❯</a>
+            <div class="dot__container">
+              <span class="dot5 dot" onclick="currentSlide(1, 4)"></span>
+              <span class="dot5 dot" onclick="currentSlide(2, 4)"></span>
+            </div>
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              Medicine Inventory(Yogi Clinic) - ReactNative
+            </h3>
+            <p class="projects__row-content-desc">
+              Developed a user-friendly medical shop app that sends timely
+              notifications before medicine expiry which, streamlines
+              organizing expired medicine data and offers seamless search and
+              filtering options for user convenience.
+            </p>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Don't hesitate to reach out by filling out the form below. I'll
+          respond to you promptly.
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action="https://formspree.io/f/xpzgpjrk" method="POST" class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+              id="name" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://in.linkedin.com/in/harsh13799">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/harsh13799">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Harshkumar Patel</h4>
+          <p class="main-footer__short-desc">
+            A Full Stack Software Engineer orchestrating innovative Frontend,
+            Backend, and DevOps solutions to drive success in web and app
+            development projects.
+          </p>
+        </div>
+      </div>
+      <div class="main-footer__lower">&copy; Copyright 2024.</div>
+    </div>
+  </footer>
 
-    <script src="./index.js"></script>
-  </body>
+  <script src="./index.js"></script>
+</body>
+
 </html>
